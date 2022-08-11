@@ -41,7 +41,7 @@
 
     <main>
 
-      <div class="about_img"><img src="https://imgur.com/Vcm1S5s" alt="christina" width="200"></div>
+      <div class="about_img"><img src="https://i.imgur.com/Vcm1S5s.jpg" alt="christina" width="200"></div>
 
       <div class="about_copy">
         <p>I am a contemporary designer working at the intersection of art, media and technology.
@@ -75,10 +75,17 @@
         </ol>
       </div>
       <h3>The Highlands Gallery</h3>
-      <button id="previous">PREVIOUS</button>
-      <button id="next">NEXT</button>
 
-      <img width="200" id="carousel" />
+      <div class="scotland_images">
+        <img id="carousel" alt="Scotland Photos" />
+
+        <div class="buttons">
+          <button id="previous">&#8249; </button>
+          <button id="next"> &#8250;</button>
+        </div>
+
+      </div>
+
 
 
       <!---
@@ -100,6 +107,8 @@
         </div>
       </div>
 -->
+
+
       <div class="clearfix"></div>
 
       <h3>Train Journey to the Highlands</h3>
@@ -109,6 +118,15 @@
           <source src="http://drive.google.com/uc?export=view&id=1IFGkDg9DLdhtHmeuAMuV8m-s779TdWbf" type="video/mp4">
         </video>
       </div>
+
+      <div class="comment_section">
+        <p id="commentheading">Feel free to leave a comment below.</p>
+        <textarea id="text"></textarea>
+        <br>
+        <button id="submit" style="margin:10px 0;">submit</button>
+        <ul id="comments" style="list-style:none;"></ul>
+      </div>
+
 
     </main>
 
@@ -143,7 +161,7 @@
   </div>
 </body>
 
-<script src="./script.js"></script>
+<script src="script.js"></script>
 
 </body>
 
