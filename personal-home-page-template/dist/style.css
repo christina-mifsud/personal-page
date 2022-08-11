@@ -129,19 +129,46 @@ h3 {
   padding-right: 20px;
 }
 
-.scotland_images {
-  align-items: center;
+#carousel {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
 
+.buttons {
+  justify-content: center;
+  display: flex;
+  flex-grow: 1;
+
+}
+
+#previous {
+  font-size: 100px;
+  border: none;
+  background: none;
+
+}
+
+#next {
+  font-size: 100px;
+  border: none;
+  background: none;
+  float: right;
+}
+
+
+/*
 .scotland_images img {
   width: 100%;
   height: auto;
 }
+*/
 
 .responsive {
   padding: 0 6px;
-  float: left;
-  width: 30%;
+  width: 40%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -163,7 +190,6 @@ h3 {
   clear: both;
 }
 
-/***********************************/
 
 .video_journey {
   display: flex;
@@ -171,6 +197,17 @@ h3 {
   flex-grow: 1;
   margin: 0 6px;
 }
+
+.comment_section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#text {
+  width: 20%;
+  height: 100px;
+}
+
 
 #footer {
   flex-shrink: 0;
