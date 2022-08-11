@@ -226,16 +226,19 @@ h3 {
   height: 50px;
 }
 
+
 #footer .menu_footer .socialmedia {
   display: flex;
   justify-content: flex-start;
   flex-grow: 1;
 }
 
-#footer .menu_footer .socialmedia .icon {
+
+.fa {
   opacity: 0.7;
-  transform: scale(0.8);
-  margin-right: 5px;
+  margin-right: 20px;
+  color: #aaa;
+  text-decoration: none;
 }
 
 #footer .menu_footer .website {
